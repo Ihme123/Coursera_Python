@@ -30,15 +30,31 @@ The protocol supports two types of requests to the server from the client side:
     
  ## Examples:
  from client import Client
+ 
  client = Client("127.0.0.1", 8888, timeout=10)
+ 
  client.put("server1.disk_usage", 66.0, timestamp= 1150864940)
+ 
  >ok
+ 
  client.put("server2.cpu_usage", 32.6, timestamp= 1150864941)
+ 
  >ok
+ 
 client.get("*")
+
 >ok
+
 >server1.disk_usage 66.0 1150864940
+
+
 >server2.cpu_usage 32.6 1150864941
+
+
 client.get("server1.disk_usage")
+
+
 >ok
+
+
 >server1.disk_usage 66.0 1150864940
