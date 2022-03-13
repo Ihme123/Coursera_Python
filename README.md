@@ -1,4 +1,5 @@
-# Coursera_Python
+# PythonServer
+
 Solutions to MIPT&amp;Mail.ru python course (https://www.coursera.org/learn/diving-in-python/ , in russian language)
 Week 5 and 6 exercises.
 My asynchronic Server + Client solution.
