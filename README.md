@@ -1,7 +1,6 @@
-# PythonServer
+# PythonServerAsync
 
-Solutions to MIPT&amp;Mail.ru python course (https://www.coursera.org/learn/diving-in-python/ , in russian language)
-Week 5 and 6 exercises.
+
 My asynchronic Server + Client solution.
 
 ## Protocol: 
@@ -59,3 +58,7 @@ client.get("server1.disk_usage")
 
 
 >server1.disk_usage 66.0 1150864940
+
+
+Was made during MIPT&amp;Mail.ru python course (https://www.coursera.org/learn/diving-in-python/)
+Week 5 and 6 exercises.
